@@ -1,8 +1,37 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+img {
+  display: flex;
+  max-width: 50em;
+  max-height: 500px;
+}
+
+.banner {
+  display: flex;
+  max-height: 500px;
+  max-width: 50em;
+}
+
+div {
+  display: flex;
+  position: absolute;
+  top: 10;
+  left: 10;
+}
+
+h2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+p {
+
 }
