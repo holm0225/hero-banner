@@ -20,30 +20,32 @@ body {
 
 .banner {
   position: relative;
-  text-align: left;
+  margin: 0;
   max-height: 500px;
   overflow: hidden;
 }
 
 .banner-content {
   position: absolute;
-  left: 20em;
-  bottom: 2em;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: .3em;
   width: 100%;
   max-width: 50em;
+  padding: 0 1.5em;
 }
 
 .banner-content h2 {
   background-color: rgba(0, 0, 0, .5);
+  display: inline;
   color: white;
-  margin: .1em auto;
   font-size: 4rem;
   font-weight: bold;
+  line-height: 1.4;
 }
 
 .banner-content p {
-  margin: 0;
   font-size: 2rem;
   font-style: italic;
-  font-weight: bold;
+  margin: .6em 0;
 }
