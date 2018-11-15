@@ -8,30 +8,40 @@ html {
   box-sizing: inherit;
 }
 
-img {
+body {
+  margin: 0;
+}
+
+.img-flex {
   display: flex;
-  max-width: 50em;
-  max-height: 500px;
+  width: 100%;
 }
 
 .banner {
-  display: flex;
+  position: relative;
+  text-align: center;
   max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 2em;
+  width:100%;
   max-width: 50em;
 }
 
-div {
-  display: flex;
-  position: absolute;
-  top: 10;
-  left: 10;
-}
-
-h2 {
+.banner-content h1 {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
+  margin: 0;
+  font-size: 4rem;
+  font-weight: bold;
 }
 
-p {
-
+.banner-content p {
+  margin: 0;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
 }
